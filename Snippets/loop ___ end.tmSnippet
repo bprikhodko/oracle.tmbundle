@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>LOOP
-	$0
+	<string>LOOP $0
 END LOOP;</string>
 	<key>name</key>
 	<string>loop ... end</string>

@@ -3,9 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>IF ${1:condition}
-THEN
-	$0
+	<string>IF ${1:condition} THEN
+   ${0:body_if}
 END IF;</string>
 	<key>name</key>
 	<string>if ... end</string>

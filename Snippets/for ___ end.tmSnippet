@@ -3,15 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Corelogger.Log_Open_PrintError_Close(pi_pkg_name, l_procname,
-    $0);</string>
+	<string>FOR ${1:iterator_name} IN ${2:start} .. ${3:stop} LOOP
+   ${0:body_loop}
+END LOOP;</string>
 	<key>name</key>
-	<string>log error</string>
+	<string>loop ... end</string>
 	<key>scope</key>
 	<string>source.plsql.oracle</string>
 	<key>tabTrigger</key>
-	<string>error</string>
+	<string>for</string>
 	<key>uuid</key>
-	<string>530B58B1-3B40-4C01-8DC0-F56913D9B6D3</string>
+	<string>1AF4E476-2EB1-42D5-A12B-B9E53EE28D6E</string>
 </dict>
 </plist>

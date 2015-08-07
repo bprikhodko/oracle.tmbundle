@@ -3,11 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>IF ${1:condition}
-THEN
-	$2
+	<string>IF ${1:condition} THEN
+   ${2:body_if}
 ELSE
-	$3
+   ${3:body_else}
 END IF;</string>
 	<key>name</key>
 	<string>if ... else ... end</string>

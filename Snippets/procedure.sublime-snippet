@@ -1,0 +1,15 @@
+<snippet>
+	<description>#PROCEDURE</description>
+    <content><![CDATA[PROCEDURE ${1:proc_name}(
+) IS
+   vFn      VARCHAR2(30) := '$1';
+BEGIN
+   dbg(vFn, p.fm('<-', NULL));
+   --
+   ${0:}NULL;
+   --
+   dbg(vFn, '->');
+END $1;]]></content>
+    <tabTrigger>proc</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>

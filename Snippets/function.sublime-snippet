@@ -1,0 +1,16 @@
+<snippet>
+	<description>#FUNCTION</description>
+    <content><![CDATA[FUNCTION ${1:func_name}(
+) RETURN ${2:VARCHAR2} IS
+   vFn      VARCHAR2(30) := '$1';
+BEGIN
+   dbg(vFn, p.fm('<-', NULL));
+   --
+   ${0:}NULL;
+   --
+   dbg(vFn, p.fm( '->', NULL);
+   RETURN NULL;
+END $1;]]></content>
+    <tabTrigger>func</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>

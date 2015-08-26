@@ -1,0 +1,12 @@
+<snippet>
+	<description>#IF</description>
+    <content><![CDATA[IF ${1:condition} THEN
+   NULL
+ELSIF TRUE THEN
+   NULL;
+ELSE
+   NULL;
+END IF;]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>

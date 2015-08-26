@@ -1,0 +1,10 @@
+<snippet>
+	<description>#SELECT</description>
+    <content><![CDATA[SELECT * 
+   INTO A
+   FROM ${1:DUAL}
+   WHERE 1 = 1
+     AND 2 = 2;]]></content>
+    <tabTrigger>select</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>

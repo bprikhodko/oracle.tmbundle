@@ -1,0 +1,8 @@
+<snippet>
+	<description>#FORI</description>
+    <content><![CDATA[FOR i IN ${1:1} .. 10 LOOP
+   NULL;
+END LOOP;]]></content>
+    <tabTrigger>fori</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>

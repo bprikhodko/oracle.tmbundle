@@ -1,0 +1,9 @@
+<snippet>
+	<description>#INSERT</description>
+    <content><![CDATA[UPDATE ${1:table}
+   SET A = NULL
+     , B = NULL
+   WHERE A = 1;]]></content>
+    <tabTrigger>update</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>

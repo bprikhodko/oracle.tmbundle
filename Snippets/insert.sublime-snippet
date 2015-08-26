@@ -1,0 +1,8 @@
+<snippet>
+	<description>#INSERT</description>
+    <content><![CDATA[INSERT INTO  ${1:table} ( A, B )
+   VALUES (A, B )
+   RETURNING ID INTO C;]]></content>
+    <tabTrigger>insert</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>

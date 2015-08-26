@@ -1,0 +1,10 @@
+<snippet>
+	<description>#BEGIN</description>
+    <content><![CDATA[BEGIN
+    ${1:statement};
+EXCEPTION WHEN OTHERS THEN
+    NULL;
+END;]]></content>
+    <tabTrigger>beg</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>

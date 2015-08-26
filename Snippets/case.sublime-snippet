@@ -1,0 +1,11 @@
+<snippet>
+	<description>#CASE</description>
+    <content><![CDATA[CASE ${1:condition}
+   WHEN TRUE THEN
+      NULL;
+   ELSE
+      NULL;
+END CASE;]]></content>
+    <tabTrigger>case</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<description>#FORS</description>
+    <content><![CDATA[FOR r IN ( 
+   SELECT * 
+   FROM ${1:DUAL}
+   WHERE 1 = 1
+     AND 2 = 2
+) LOOP
+   NULL;
+END LOOP;]]></content>
+    <tabTrigger>fors</tabTrigger>
+    <scope>source.plsql.oracle</scope>
+</snippet>
